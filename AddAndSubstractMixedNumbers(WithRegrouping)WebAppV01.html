@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Page Title</title>
+
+	<link rel="stylesheet" type="text/css" href="Mystyle.css">
+</head>
+
+<body>
+
+	<h1>Math Web App</h1>
+	<hr>
+	<h2>Add and substract mixed numbers (with regrouping)</h2>
+	<h3 id="eText"></h3>
+	<p>A = B C/D + E F/D</p>
+	<p>or</p>
+	<p>A = B C/D - E F/G</p>
+	<p>or</p>
+	<p>A = B C/D * E F/G</p>
+	<p>or</p>
+	<p>A = B C/D / E F/G</p>
+	<hr>
+	<p>Please input B, C, D, Operator, E, F, and G to get A</p>
+
+	B <input type="number" name="B" id="B"> <br>
+	<br>
+	C <input type="number" name="C" id="C"> <br>
+	<br>	
+	D <input type="number" name="D" id="D"> <br>
+	<br>
+	Operator <SELECT id="Operator">
+			<option value="plus">Plus</option>
+			<option value="min">Minus</option>
+			<option value="mult">Multiply</option>
+			<option value="div">Devide</option>	
+	</SELECT><br>
+	<br>
+	E <input type="number" name="E" id="E"> <br>
+	<br>	
+	F <input type="number" name="F" id="F"> <br>
+	<br>
+	G <input type="number" name="G" id="G"> <br>
+	<br>	
+	<button id="CountButton">Count A</button>
+	<hr>
+	<h3 id="rText"></h3>
+	<hr>
+	<p>Version 01.20190519.LM</p>
+
+	<script src="script.js">
+	</script>
+
+</body>
+</html>
